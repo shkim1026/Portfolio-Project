@@ -58,7 +58,6 @@ a:hover {
 header {
   text-align: center;
   background: url('images/silhouette-photography-of-houses-2659628.jpg') no-repeat bottom;
-  /*background-position-y: -690px;*/
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -75,7 +74,8 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(360deg);
+  transform: scale(1.2);
+  border-radius: 15%;
 }
 .tag {
   background-color: #efefef;
@@ -194,6 +194,10 @@ a.social:hover {
   text-shadow: 1px 1px #ff5e00;
 }
 
+.card-images{
+  max-width: -moz-available;
+  max-width: -webkit-fill-available;
+}
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
