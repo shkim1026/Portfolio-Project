@@ -52,7 +52,7 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: #ff5e00;
 }
 
 header {
@@ -188,6 +188,12 @@ a.social:hover {
 .interest-links {
   color: #0399ff;
 }
+
+.header-2{
+  color: #0a3244;
+  text-shadow: 1px 1px #ff5e00;
+}
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
