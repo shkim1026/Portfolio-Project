@@ -30,6 +30,7 @@ a:hover {
   padding: 10px;
   position: fixed;
   text-align: center;
+  opacity: 75%;
 }
 .nav {
   display: flex;
@@ -79,7 +80,7 @@ header .profile-image:hover {
 }
 .tag {
   background-color: #efefef;
-  color: black;
+  color: #0a3244;
   padding: 10px;
   border-radius: 5px;
   display: table;
@@ -88,6 +89,7 @@ header .profile-image:hover {
 .location {
   background-color: #222;
   color: rgb(255, 154, 2);
+  opacity: 80%
 }
 .card {
   margin: 30px;
@@ -237,3 +239,55 @@ a.social:hover {
 
 }
 
+/* Contact form styling */
+.contact-container{
+  width: 40em;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  padding: 20px 40px 40px;
+  transition: all .5s;
+}
+
+.contact-container:hover {
+  border-color: #0a3244;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+  text-align: left;
+}
+
+input[type=submit] {
+  background-color: #0a3244;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #ff5e00;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#submit-button {
+  text-align: center;
+}
