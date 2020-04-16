@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/silhouette-photography-of-houses-2659628.jpg') no-repeat bottom;
+  background: url('images/hero-banner.jpg') no-repeat bottom;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -168,7 +168,7 @@ a.social:hover {
   clear: both;
 }
 
-.card-interests {
+.interests-card {
   margin: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -181,7 +181,7 @@ a.social:hover {
   transition: all .5s;
 }
 
-.card-interests:hover {
+.interests-card:hover {
   border-color: #0a3244;
 }
 
@@ -191,7 +191,7 @@ a.social:hover {
 
 .header-2{
   color: #0a3244;
-  text-shadow: 1px 1px #ff5e00;
+  text-shadow: 1px 1px #757575;
 }
 
 .card-images{
