@@ -201,6 +201,10 @@ a.social:hover {
   max-width: -webkit-fill-available;
 }
 
+.indent {
+  margin-left: 5%;
+}
+
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
