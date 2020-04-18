@@ -91,7 +91,7 @@ header .profile-image:hover {
   color: rgb(255, 154, 2);
   opacity: 80%
 }
-.card {
+.section {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -101,7 +101,7 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.card:hover {
+.section:hover {
   border-color: #0a3244;
 }
 
@@ -199,6 +199,7 @@ a.social:hover {
 .card-images{
   max-width: -moz-available;
   max-width: -webkit-fill-available;
+  width:100%;
 }
 
 .indent {
